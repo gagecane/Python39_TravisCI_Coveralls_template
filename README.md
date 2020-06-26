@@ -1,2 +1,2 @@
-# list-bot
-Telegram List Bot
+# Python Repository Framework
+Basic starter repo

@@ -12,6 +12,6 @@ install:
   - pip install pipenv
   - pipenv install --dev
 # command to run tests
-script: pipenv run pytest --cov=src tests/
+script: pytest --cov=src tests/
 after_success:
-  - pipenv run coveralls
+  - coveralls
